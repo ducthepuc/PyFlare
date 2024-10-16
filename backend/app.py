@@ -1,10 +1,9 @@
 from flask import Flask, request, render_template
 
-app = Flask(__name__)
 
-@app.route('/api/data')
-def get_data():
-    return {"message": "I'm tired of this"}
+# I lost my dawg,
+# Csináltam új branchet
+app = Flask(__name__)
 
 @app.route('/login', methods=["POST"], strict_slashes=False)
 def login():
